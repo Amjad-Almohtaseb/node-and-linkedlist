@@ -9,11 +9,11 @@ class Node {
     this.nextNode = nextNode;
   }
 }
-//Creating a LinkedList
+//Creating a LinkedList whish is a data structure where each element is a node
 
 class LinkedList {
   constructor(age, highlight) {
-    this.head = new Node(age, highlight);
+    this.head = new Node(age, highlight); //head is object contain age ,highlight
   }
 
   insertBeginning = (age, highlight) => {
