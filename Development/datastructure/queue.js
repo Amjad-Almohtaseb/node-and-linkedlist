@@ -81,7 +81,7 @@ class Queue {
   };
 }
 
-const ride = new Queue(); // we make it to have access in the methods
+const ride = new Queue(); // we make it to have access in the methods,and the object is the whole queue
 console.log(`waiting Time when queue still empty : ${ride.waitingTime}`);
 queueGroups = [15, 12, 3, 7];
 let i = 0;
